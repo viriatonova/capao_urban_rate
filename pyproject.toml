@@ -7,9 +7,13 @@ name = "capao-urban-rate"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-  "earthengine-api==0.1.399",
   "python-dotenv==1.0.1",
-  "geemap==0.32.0"
+  "earthengine-api",
+  "geemap",
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "scikit-learn"
 ]
 
 [project.optional-dependencies]
