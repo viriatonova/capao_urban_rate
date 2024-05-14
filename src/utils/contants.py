@@ -35,5 +35,6 @@ BANDS = ["Blue", "Green", "Red", "NIR", "SWIR1", "SWIR2"]
 BANDS_STANDARD = ["B2", "B3", "B4", "B5", "B6", "B7"]
 BANDS_LANDSET_7 = ["B1", "B2", "B3", "B4", "B5", "B7"]
 
+
 if __name__ == "__main__":
     print(PROJECT)
